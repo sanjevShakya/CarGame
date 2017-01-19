@@ -1,0 +1,51 @@
+#container {
+	margin: 0 auto;
+	width: 300px;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+}
+
+#background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: -9500px;
+	width: 100%;
+	height: 10000px;
+	background: url("../images/laneBackground.png") repeat-y;
+}
+
+#score {
+	position: absolute;
+	top: 10px;
+	left: 200px;
+	width: 300px;
+	height: 100px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+#gameStatus {
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	width: 300px;
+	height: 100px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+div.box {
+	width: 50px;
+	height: 100px;
+	background: url("../images/opponentCar-resized.png") no-repeat;
+	position: absolute;
+}
+
+div.mycar {
+	width: 50px;
+	height: 100px;
+	background: url("../images/myCar-resized.png") no-repeat;
+	position: absolute;
+}
